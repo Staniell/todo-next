@@ -8,7 +8,7 @@ on: push
 jobs:
   test:
     # Operating System
-    runs-on: windows-10
+    runs-on: ubuntu-latest
     # Job steps
     steps:
       - uses: actions/checkout@v1
@@ -19,4 +19,4 @@ jobs:
         with:
           #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/ to obtain it
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
