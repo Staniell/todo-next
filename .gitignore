@@ -19,7 +19,7 @@
 .DS_Store
 *.pem
 
-.github
+.github/workflows
 
 # debug
 npm-debug.log*
