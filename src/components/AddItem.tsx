@@ -21,7 +21,7 @@ export default function AddItem({ content }: Props) {
         readOnly
         value={content}
       ></input>
-      <button className="border-2 bg-slate-300 border-black p-3 w-32">Add</button>
+      <button className="border-2 bg-slate-400 border-black p-3 w-32">Add</button>
     </div>
   );
 }
