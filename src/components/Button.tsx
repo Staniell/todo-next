@@ -13,7 +13,7 @@ export default function Button({ buttonState, onClick }: Props) {
     <div>
       <button
         onClick={onClick}
-        className={`border-2 border-y-black p-3 w-24 lg:w-32 ${
+        className={`border-2 border-x-black p-3 w-24 lg:w-32 ${
           buttonState === "delete"
             ? "bg-delete-btn"
             : buttonState === "complete"
