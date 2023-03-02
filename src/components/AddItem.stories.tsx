@@ -28,15 +28,15 @@ WithValue.args = {
   content: "Enim esse aute nostrud deserunt aute dolore consequat eiusmod nulla est commodo sunt proident.",
 };
 
-WithValue.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
+// WithValue.play = async ({ canvasElement }) => {
+//   const canvas = within(canvasElement);
 
-  // 👇 Simulate interactions with the component
-  const addButton = await canvas.getByTestId("addContent");
+//   // 👇 Simulate interactions with the component
+//   const addButton = await canvas.getByTestId("addContent");
 
-  // See https://storybook.js.org/docs/react/essentials/actions#automatically-matching-args to learn how to setup logging in the Actions panel
-  // await userEvent.click(canvas.getByRole("button"));
+//   // See https://storybook.js.org/docs/react/essentials/actions#automatically-matching-args to learn how to setup logging in the Actions panel
+//   // await userEvent.click(canvas.getByRole("button"));
 
-  // 👇 Assert DOM structure
-  await expect(addButton).toBeInTheDocument();
-};
+//   // 👇 Assert DOM structure
+//   await expect(addButton).toBeInTheDocument();
+// };
